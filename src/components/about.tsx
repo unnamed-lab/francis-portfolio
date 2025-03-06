@@ -18,8 +18,8 @@ export default function About() {
             <h3 className="text-2xl font-bold mb-4">Who I Am</h3>
             <p className="text-slate-700 dark:text-slate-300 mb-4">{userDetails.bio}</p>
             <p className="text-slate-700 dark:text-slate-300 mb-6">
-              I'm always looking for new opportunities to learn and grow. Currently, I'm expanding my knowledge by
-              learning Node.js and MongoDB to enhance my backend development skills.
+              {`I'm always looking for new opportunities to learn and grow. Currently, I'm expanding my knowledge by
+              learning Node.js and MongoDB to enhance my backend development skills.`}
             </p>
 
             <div className="grid grid-cols-2 gap-4">

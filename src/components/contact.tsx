@@ -44,6 +44,7 @@ export default function Contact() {
         throw new Error("Failed to send message")
       }
     } catch (error) {
+      console.error(error)
       setSubmitError("An error occurred while sending your message. Please try again later.")
     } finally {
       setIsSubmitting(false)

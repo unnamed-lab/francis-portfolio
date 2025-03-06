@@ -20,7 +20,7 @@ export default function Skills() {
         <div className="text-center mb-12 fade-in">
           <h2 className="heading mb-4">My Skills</h2>
           <p className="max-w-2xl mx-auto text-slate-600 dark:text-slate-400">
-            Here are the technologies and tools I've been working with.
+            {"Here are the technologies and tools I've been working with."}
           </p>
         </div>
 
